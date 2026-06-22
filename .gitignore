@@ -1,0 +1,183 @@
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# ==========================
+# Virtual environments
+# ==========================
+venv/
+env/
+ENV/
+.venv/
+
+# ==========================
+# Environment variables
+# ==========================
+.env
+.env.*
+!.env.example
+
+# API keys / secrets
+secrets/
+credentials/
+service_account.json
+
+# ==========================
+# Jupyter Notebook
+# ==========================
+.ipynb_checkpoints/
+
+# ==========================
+# Model files (Large)
+# ==========================
+models/
+checkpoints/
+weights/
+
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.onnx
+*.safetensors
+*.h5
+*.keras
+
+# Keep placeholder files
+!models/.gitkeep
+
+# ==========================
+# Datasets
+# ==========================
+data/
+datasets/
+raw_data/
+processed_data/
+
+*.csv
+*.parquet
+*.feather
+*.arrow
+
+# Keep config files if needed
+!data/.gitkeep
+
+# ==========================
+# Experiment Tracking
+# ==========================
+mlruns/
+wandb/
+lightning_logs/
+tensorboard_logs/
+runs/
+logs/
+
+# TensorBoard
+events.out.tfevents.*
+
+# ==========================
+# Hugging Face
+# ==========================
+.cache/huggingface/
+huggingface_cache/
+
+# ==========================
+# PyTorch
+# ==========================
+torch_compile_debug/
+
+# ==========================
+# LangChain / LLM outputs
+# ==========================
+generated/
+outputs/
+responses/
+tmp/
+
+# ==========================
+# Vector Databases
+# ==========================
+chroma/
+chromadb/
+faiss_index/
+qdrant_storage/
+
+# ==========================
+# Cache files
+# ==========================
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ==========================
+# Testing / Coverage
+# ==========================
+.coverage
+coverage.xml
+htmlcov/
+
+# ==========================
+# IDEs
+# ==========================
+.vscode/
+.idea/
+
+# ==========================
+# OS Files
+# ==========================
+.DS_Store
+Thumbs.db
+
+# ==========================
+# Docker
+# ==========================
+docker-compose.override.yml
+
+# ==========================
+# Logs
+# ==========================
+*.log
+
+# ==========================
+# Temporary files
+# ==========================
+*.tmp
+*.temp
+*.swp
+
+# ==========================
+# Deployment
+# ==========================
+terraform.tfstate*
+.terraform/
+
+# ==========================
+# Node.js (for AI web apps)
+# ==========================
+node_modules/
+.next/
+.nuxt/
+dist/
+
+# ==========================
+# Streamlit / Gradio
+# ==========================
+.streamlit/secrets.toml
+
+# ==========================
+# Local databases
+# ==========================
+*.db
+*.sqlite
+*.sqlite3
