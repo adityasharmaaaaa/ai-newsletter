@@ -62,7 +62,7 @@ This project implements a complete microservices and ML pipeline architecture, r
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/ai-content-curator.git
+git clone https://github.com/adityasharmaaaaa/ai-newsletter
 cd ai-content-curator
 ```
 
@@ -122,14 +122,6 @@ python3 email_dispatcher.py
 ```
 
 ---
-
-## ☁️ Cloud Deployment
-
-This project is designed to run entirely on **free-tier cloud infrastructure**:
-
-- **Database:** Hosted on [Neon.tech](https://neon.tech) (Serverless Postgres).
-- **Web Server:** Hosted on [Render.com](https://render.com) (Free Web Service). Simply deploy the repository and set the `DATABASE_URL` environment variable.
-- **Automation:** Managed by GitHub Actions. The `.github/workflows/weekly_newsletter.yml` file is configured to execute the pipeline every **Friday at 09:00 UTC** using your repository secrets.
 
 ---
 
