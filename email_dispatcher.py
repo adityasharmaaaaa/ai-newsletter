@@ -15,8 +15,7 @@ DATABASE_URL = os.environ.get("DATABASE_URL")
 
 SMTP_SERVER = "smtp.gmail.com" 
 SMTP_PORT = 587
-SMTP_USER = "adityasharma00070@gmail.com" 
-SMTP_PASS = "ouhn yixa tuhr kkux"
+
 
 def fetch_active_subscribers() -> list:
     """Returns a list of emails for all active subscribers."""
